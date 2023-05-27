@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --mainColor: #281B13;
+    --mainColorLight:#EDECEA;
+    --textColor: #44333C;
+    --mainFont: Neue Haas Grotesk;
+}
+
+h3{
+    padding-top: 8rem;
+    padding-bottom: 20px;
+    color: var(--mainColor);
+}
+
+.auth__form{
+        padding: 10px 50px;
+        
+}
+
+.form__group__login input {
+    width: 100%;
+    padding: 8px 20px;
+    border: none;
+    border-bottom: 1px solid var(--mainColorLight);
+    border-radius: 5px;
+    background: transparent;
+    
+}
+
+.login__btn{
+    background-color: transparent; 
+    width: 30%; 
+    height: auto; 
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid var(--mainColor);
+    font-size: 16px;
+
+    &:hover{
+        color: #fff;
+        background: var(--mainColor);
+    }
+
+    &:active{
+        transform: scale(1.2);
+        transition: 1s;
+    }
+}
+
+p{
+    color: var(--textColor);
+}
+
+p a{
+    color: var(--mainColorLight);
+    &:hover{
+        color: var(--mainColor);
+    }
+}

@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor: #281B13;
+    --mainColorLight:#EDECEA;
+    --textColor: #44333C;
+}
+.Inf_shop{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: var(--mainColorLight);
+    margin: 4rem 0;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.Inf_shop h2{
+    font-size: 20px;
+    line-height: 18.75px;
+    text-transform: uppercase;
+    font-family: Neue Haas Grotesk;
+}
+
+.customer_footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Neue Haas Grotesk;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: var(--textColor);
+}
+.customer_footer a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.information_footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Neue Haas Grotesk;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: var(--textColor);
+}
+
+.information_footer a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.connect_footer p{
+    font-size: 15px;
+    font-family: Neue Haas Grotesk;
+    line-height: 22.5px;
+    /* font-weight: bold; */
+    
+
+}
+.connect_footer a{
+    text-decoration: none;
+    font-family: Neue Haas Grotesk;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: var(--textColor);
+
+}
+
+.connect_footer li.btn_item {
+    display: flex;
+    justify-content: center;
+}
+

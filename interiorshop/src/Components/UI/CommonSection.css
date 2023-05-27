@@ -1,0 +1,32 @@
+:root{
+    --mainColor: #281B13;
+    --mainColorLight:#EDECEA;
+    --textColor: #44333C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.common__section{
+    background-image: url("../../img/Main/main2.png");
+    background-size: cover;
+    background-repeat: no-repeat center;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 5rem;
+        padding: 5rem 4rem;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+}
+
+.common__section h1{
+    color: var(--mainColorLight);
+    text-shadow: var(--mainColor) 1px 0 10px;
+    font-weight: 700;
+}
